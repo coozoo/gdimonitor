@@ -10,7 +10,11 @@ Simple vbs comandline frontend for nirsoft GDIView.exe to dump stats into csv fi
 
 3. Run gdimonitor.vbs using cmd
 
+For example to monitor all processes that contain "notepad"  in name
+
 `gdimonitor.vbs -delay 5 -name notepad`
+
+As result notepad.exe and notepad++.exe will be monitored
 
 4. To kill you can use taskmanage and kill "wscript.exe" or "cscript.exe" depends how you've launched it or simply click "killvbsprocesses.vbs" all vbs proceses should be killed.
 
