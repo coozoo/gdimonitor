@@ -1,5 +1,6 @@
 # gdimonitor
 Gather statistics to search memory leaks in UI windows application.
+
 Simple vbs comandline frontend for nirsoft GDIView.exe to dump stats into csv file.
 
 ## How to use
