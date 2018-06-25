@@ -11,7 +11,10 @@ Simple vbs comandline frontend for nirsoft GDIView.exe to dump stats into csv fi
 4. To kill you can use taskmanage and kill "wscript.exe" or "cscript.exe" depends how you've launched it or simply click "killvbsprocesses.vbs" all vbs proceses should be killed.
 
 You will find stats inside gdistat folder separate file for each matched process:
+
 PID + "GDIstat" + day.month.year-hours-minutes.csv
+
 Example of file name:
+
 10660GDIstat25.6.2018-11-24.csv
 
